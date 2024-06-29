@@ -130,10 +130,10 @@ def count_exon_reads(counted_line,exon_reads):
         elif "GACTGCTCTTTTCACCCATCTAC" in line[0] or "CGGCCAGGCATTGAAGTC" in line[0]:
             line.append("Exon4")
             exon_reads["Exon4"] += float(line[1])              
-        elif "CTGACTTTCAACTCTGTCTCCTTCC" in line[0] or "TGAAAGGTCACACGAAAGACA" in line[0]:
+        elif "CTGACTTTCAACTCTGTCTCCTTCC" in line[0] or "agcaatcagtgaggaatcagagg".upper() in line[0]:
             line.append("Exon5")
             exon_reads["Exon5"] += float(line[1])
-        elif "TTAGTTCCCCACCTTGACAC" in line[0] or "AGCCCTGTCGTCTCTCC" in line[0]:
+        elif "cctctgattcctcactgattgct".upper() in line[0] or "AGCCCTGTCGTCTCTCC" in line[0]:
             line.append("Exon6")
             exon_reads["Exon6"] += float(line[1])
         elif "CCTCATCTTGGGCCTGTGTTATC" in line[0] or "TGATGAGAGGTGGATGGGTA" in line[0]:
