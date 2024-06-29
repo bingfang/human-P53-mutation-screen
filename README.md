@@ -1,13 +1,9 @@
 ---
-title: "Human_P53_screen_20240628"
-author: "Bingfang Ruth Xu"
-date: "2024-06-28"
-output: html_document
----
+Title: "Human_P53_screen_20240628"
+Author: "Bingfang Ruth Xu"
+Date: "2024-06-28"
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+---
 
 ## Trimmatic lines
 
